@@ -1,7 +1,7 @@
 {
   "name": "com.github.ivanmurzak.ios.pods.bitcode",
   "displayName": "iOS Pods Bitcode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2019.2",
   "author": { "name": "Ivan Murzak", "url": "https://github.com/IvanMurzak" },
   "description": "Unity iOS post process for forcing Pods to have Bitcode property YES/NO. You can control bitcode status for all pods from single place. Highly usable with CI.",
