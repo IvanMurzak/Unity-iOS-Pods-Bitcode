@@ -1,3 +1,5 @@
+#if PODS_BITCODE_NO || PODS_BITCODE_YES
+
 using System.IO;
 using UnityEditor;
 using UnityEditor.Callbacks;
@@ -15,12 +17,14 @@ public class iOSPodsBitcodePostProcess
         {
             using (StreamWriter sw = File.AppendText(buildPath + "/Podfile"))
             {
-#if PODS_BITCODE_NO                
-                sw.WriteLine(string.Format(PodfileEnding, "NO"));
-#elif PODS_BITCODE_YES
+#if PODS_BITCODE_YES
                 sw.WriteLine(string.Format(PodfileEnding, "YES"));
+#elif PODS_BITCODE_NO
+                sw.WriteLine(string.Format(PodfileEnding, "NO"));
 #endif
             }
         }
     }
 }
+
+#endif
