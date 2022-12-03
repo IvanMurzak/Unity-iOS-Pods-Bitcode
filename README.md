@@ -8,4 +8,4 @@ Unity iOS post process for forcing Pods to have Bitcode property YES/NO. You can
 
 - [Install OpenUPM-CLI](https://github.com/openupm/openupm-cli#installation)
 - Open command line in Unity project folder
-- `openupm add YOUR_PACKAGE_NAME`
+- `openupm add com.github.ivanmurzak.ios.pods.bitcode`
