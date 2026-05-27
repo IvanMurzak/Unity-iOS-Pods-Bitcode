@@ -6,11 +6,44 @@
 
 Unity iOS post process for forcing Pods to have Bitcode property YES/NO. You can control bitcode status for all pods from single place. Highly usable with CI.
 
-# Installation 
+# Installation
 
-- [Install OpenUPM-CLI](https://github.com/openupm/openupm-cli#installation)
-- Open command line in Unity project folder
-- `openupm add com.github.ivanmurzak.ios.pods.bitcode`
+### Option 1 - Installer
+
+- **[⬇️ Download Installer](https://github.com/IvanMurzak/Unity-iOS-Pods-Bitcode/releases/latest/download/iOS-Pods-Bitcode-Installer.unitypackage)**
+- **📂 Import installer into Unity project**
+  > - You may use double click on the file - Unity will open it
+  > - OR: You may open Unity Editor first, then click on `Assets/Import Package/Custom Package`, then choose the file
+
+### Option 2 - OpenUPM-CLI
+
+- [⬇️ Install OpenUPM-CLI](https://github.com/openupm/openupm-cli#installation)
+- 📟 Open command line in Unity project folder
+
+```bash
+openupm add com.github.ivanmurzak.ios.pods.bitcode
+```
+
+### Option 3 - Manual (manifest.json)
+
+- Add this code to `/Packages/manifest.json`
+
+```json
+{
+  "dependencies": {
+    "com.github.ivanmurzak.ios.pods.bitcode": "1.0.0"
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.github.ivanmurzak"
+      ]
+    }
+  ]
+}
+```
 
 # Usage
 
