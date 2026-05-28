@@ -16,7 +16,7 @@ namespace com.github.ivanmurzak.ios.pods.bitcode.Installer
     public static partial class Installer
     {
         public const string PackageId = "com.github.ivanmurzak.ios.pods.bitcode";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
 
         static Installer()
         {
