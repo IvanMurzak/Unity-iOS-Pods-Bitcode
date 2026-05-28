@@ -1,6 +1,11 @@
 # Unity iOS Pods Bitcode
 
- [![openupm](https://img.shields.io/npm/v/com.github.ivanmurzak.ios.pods.bitcode?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.github.ivanmurzak.ios.pods.bitcode/) ![License](https://img.shields.io/github/license/IvanMurzak/Unity-iOS-Pods-Bitcode) [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
+[![OpenUPM](https://img.shields.io/npm/v/com.github.ivanmurzak.ios.pods.bitcode?label=OpenUPM&registry_uri=https://package.openupm.com&labelColor=333A41 'OpenUPM package')](https://openupm.com/packages/com.github.ivanmurzak.ios.pods.bitcode/)
+[![r](https://github.com/IvanMurzak/Unity-iOS-Pods-Bitcode/workflows/release/badge.svg 'Release')](https://github.com/IvanMurzak/Unity-iOS-Pods-Bitcode/actions/workflows/release.yml)
+[![OpenUPM](https://img.shields.io/badge/dynamic/json?labelColor=333A41&label=Downloads&query=%24.downloads&suffix=%2Fmonth&url=https%3A%2F%2Fpackage.openupm.com%2Fdownloads%2Fpoint%2Flast-month%2Fcom.github.ivanmurzak.ios.pods.bitcode)](https://openupm.com/packages/com.github.ivanmurzak.ios.pods.bitcode/)
+[![Stars](https://img.shields.io/github/stars/IvanMurzak/Unity-iOS-Pods-Bitcode 'Stars')](https://github.com/IvanMurzak/Unity-iOS-Pods-Bitcode/stargazers)
+[![License](https://img.shields.io/github/license/IvanMurzak/Unity-iOS-Pods-Bitcode?label=License&labelColor=333A41)](https://github.com/IvanMurzak/Unity-iOS-Pods-Bitcode/blob/main/LICENSE)
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
 
 ![image](https://user-images.githubusercontent.com/9135028/205457956-691ac3cd-e9fa-4f97-883f-7f2c7a392c8d.png)
 
